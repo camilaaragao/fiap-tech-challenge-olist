@@ -1,0 +1,53 @@
+Tabela,Nome Original,Nome Traduzido,Tipo de Dado,Valores Nulos,Valores Distintos,Descrição
+Customers,customer_id,id_cliente,object,0,99441,Coluna id_cliente da tabela Customers
+Customers,customer_unique_id,id_cliente_unico,object,0,96096,Coluna id_cliente_unico da tabela Customers
+Customers,customer_zip_code_prefix,cep_cliente,int64,0,14994,Coluna cep_cliente da tabela Customers
+Customers,customer_city,cidade_cliente,object,0,4119,Coluna cidade_cliente da tabela Customers
+Customers,customer_state,estado_cliente,object,0,27,Coluna estado_cliente da tabela Customers
+Geolocation,geolocation_zip_code_prefix,cep_geolocalizacao,int64,0,19015,Coluna cep_geolocalizacao da tabela Geolocation
+Geolocation,geolocation_lat,latitude,float64,0,717360,Coluna latitude da tabela Geolocation
+Geolocation,geolocation_lng,longitude,float64,0,717613,Coluna longitude da tabela Geolocation
+Geolocation,geolocation_city,cidade_geolocalizacao,object,0,5971,Coluna cidade_geolocalizacao da tabela Geolocation
+Geolocation,geolocation_state,estado_geolocalizacao,object,0,27,Coluna estado_geolocalizacao da tabela Geolocation
+Order Items,order_id,id_pedido,object,0,98666,Coluna id_pedido da tabela Order Items
+Order Items,order_item_id,id_item_pedido,int64,0,21,Coluna id_item_pedido da tabela Order Items
+Order Items,product_id,id_produto,object,0,32951,Coluna id_produto da tabela Order Items
+Order Items,seller_id,id_vendedor,object,0,3095,Coluna id_vendedor da tabela Order Items
+Order Items,shipping_limit_date,data_limite_envio,object,0,93318,Coluna data_limite_envio da tabela Order Items
+Order Items,price,preco,float64,0,5968,Coluna preco da tabela Order Items
+Order Items,freight_value,valor_frete,float64,0,6999,Coluna valor_frete da tabela Order Items
+Order Reviews,review_id,id_avaliacao,object,0,98410,Coluna id_avaliacao da tabela Order Reviews
+Order Reviews,order_id,id_pedido,object,0,98673,Coluna id_pedido da tabela Order Reviews
+Order Reviews,review_score,nota_avaliacao,int64,0,5,Coluna nota_avaliacao da tabela Order Reviews
+Order Reviews,review_comment_title,titulo_comentario,object,87656,4415,Coluna titulo_comentario da tabela Order Reviews
+Order Reviews,review_comment_message,mensagem_comentario,object,58247,36050,Coluna mensagem_comentario da tabela Order Reviews
+Order Reviews,review_creation_date,data_criacao_avaliacao,object,0,636,Coluna data_criacao_avaliacao da tabela Order Reviews
+Order Reviews,review_answer_timestamp,data_resposta_avaliacao,object,0,98248,Coluna data_resposta_avaliacao da tabela Order Reviews
+Order Payments,order_id,id_pedido,object,0,99440,Coluna id_pedido da tabela Order Payments
+Order Payments,payment_sequential,sequencial_pagamento,int64,0,29,Coluna sequencial_pagamento da tabela Order Payments
+Order Payments,payment_type,tipo_pagamento,object,0,5,Coluna tipo_pagamento da tabela Order Payments
+Order Payments,payment_installments,parcelas_pagamento,int64,0,24,Coluna parcelas_pagamento da tabela Order Payments
+Order Payments,payment_value,valor_pagamento,float64,0,29077,Coluna valor_pagamento da tabela Order Payments
+Orders,order_id,id_pedido,object,0,99441,Coluna id_pedido da tabela Orders
+Orders,customer_id,id_cliente,object,0,99441,Coluna id_cliente da tabela Orders
+Orders,order_status,status_pedido,object,0,8,Coluna status_pedido da tabela Orders
+Orders,order_purchase_timestamp,data_compra_pedido,object,0,98875,Coluna data_compra_pedido da tabela Orders
+Orders,order_approved_at,data_aprovacao_pedido,object,160,90733,Coluna data_aprovacao_pedido da tabela Orders
+Orders,order_delivered_carrier_date,data_entrega_transportadora,object,1783,81018,Coluna data_entrega_transportadora da tabela Orders
+Orders,order_delivered_customer_date,data_entrega_cliente,object,2965,95664,Coluna data_entrega_cliente da tabela Orders
+Orders,order_estimated_delivery_date,data_estimada_entrega,object,0,459,Coluna data_estimada_entrega da tabela Orders
+Products,product_id,id_produto,object,0,32951,Coluna id_produto da tabela Products
+Products,product_category_name,nome_categoria_produto,object,610,73,Coluna nome_categoria_produto da tabela Products
+Products,product_name_lenght,tamanho_nome_produto,float64,610,66,Coluna tamanho_nome_produto da tabela Products
+Products,product_description_lenght,tamanho_descricao_produto,float64,610,2960,Coluna tamanho_descricao_produto da tabela Products
+Products,product_photos_qty,quantidade_fotos_produto,float64,610,19,Coluna quantidade_fotos_produto da tabela Products
+Products,product_weight_g,peso_produto_g,float64,2,2204,Coluna peso_produto_g da tabela Products
+Products,product_length_cm,comprimento_produto_cm,float64,2,99,Coluna comprimento_produto_cm da tabela Products
+Products,product_height_cm,altura_produto_cm,float64,2,102,Coluna altura_produto_cm da tabela Products
+Products,product_width_cm,largura_produto_cm,float64,2,95,Coluna largura_produto_cm da tabela Products
+Sellers,seller_id,id_vendedor,object,0,3095,Coluna id_vendedor da tabela Sellers
+Sellers,seller_zip_code_prefix,cep_vendedor,int64,0,2246,Coluna cep_vendedor da tabela Sellers
+Sellers,seller_city,cidade_vendedor,object,0,611,Coluna cidade_vendedor da tabela Sellers
+Sellers,seller_state,estado_vendedor,object,0,23,Coluna estado_vendedor da tabela Sellers
+Category Translation,product_category_name,nome_categoria_produto,object,0,71,Coluna nome_categoria_produto da tabela Category Translation
+Category Translation,product_category_name_english,nome_categoria_produto_ingles,object,0,71,Coluna nome_categoria_produto_ingles da tabela Category Translation
