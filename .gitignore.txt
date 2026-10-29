@@ -1,0 +1,10 @@
+# Ambientes virtuais e checkpoints
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Dados locais (para evitar subir arquivos pesados de CSV)
+data/
+*.zip
+*.csv
