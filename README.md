@@ -16,7 +16,18 @@ A análise abrange todo o pipeline de dados:
 
 ---
 
+## 🛠️ Tecnologias Utilizadas
+- **Linguagem:** Python 3.10+
+- **Manipulação de Dados:** Pandas, NumPy
+- **Visualização de Dados:** Matplotlib, Seaborn
+- **Ambiente de Desenvolvimento:** Google Colab
+- **Controle de Versão:** Git & GitHub
+
+---
+
 ## 📂 Estrutura do Repositório
+
+Os slides de apresentação e relatórios detalhados deste projeto encontram-se na pasta [docs/](./docs). 
 
 ```text
 fiap-tech-challenge-olist/
